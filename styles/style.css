@@ -31,6 +31,8 @@
 }
 
 .container {
+  display: grid;
+  justify-items: center;
   max-width: 43.75rem;
   margin-inline: auto;
 }
@@ -54,13 +56,15 @@
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 1;
   font-family: var(--font_type_accent), fantasy;
-  margin-block-end: 25px;
+  
 }
 
 .header__caption {
   margin-top: 20px;
+  margin-block-end: 25px;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   display: block;
+  font-family: var(--font_type_accent), fantasy;
 }
 
 .theme-menu__list {
@@ -274,13 +278,6 @@
 
 .button:hover::before {
   transform: scaleX(1);
-}
-
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .button_save {
