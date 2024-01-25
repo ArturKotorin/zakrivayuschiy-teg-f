@@ -59,6 +59,10 @@
   text-decoration: none;
 }
 
+.header__title:focus {
+  outline: none;
+}
+
 .header__caption {
   margin-top: 20px;
   margin-block-end: 25px;
