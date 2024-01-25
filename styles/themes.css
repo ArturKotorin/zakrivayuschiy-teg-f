@@ -62,7 +62,7 @@
   }
 
   @media (prefers-color-scheme: light) {
-    :root{
+    :root {
     --font_weight_title: 700;
     --font_weight_body: 400;
   
